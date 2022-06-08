@@ -1,6 +1,25 @@
 //import
 @import "./variables.scss";
-
-.squ{
-    transform: rotate(90);
+@mixin bob($property){
+    -webkit-transform: $property ;
+    -ms-transform: $property ;
+    transform: $property;
 }
+
+
+div{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-color: $c1;
+    
+}
+.squ{
+    @include bob (rotate(45deg));
+}
+p{
+    transform: rotate(0.5turn);
+}
+
+

@@ -1,3 +1,15 @@
+div {
+  display: block;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  background-color: #023047;
+}
+
 .squ {
-  transform: rotate(90);
+  transform: rotate(45deg);
+}
+
+p {
+  transform: rotate(0.5turn);
 }/*# sourceMappingURL=style.css.map */
