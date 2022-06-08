@@ -1,15 +1,14 @@
-div {
-  display: block;
-  margin: auto;
-  height: 50px;
-  width: 50px;
-  background-color: #023047;
+.textbox, .warning, .info {
+  width: 100%;
+  margin: 20% 0;
+  padding: 10% 0;
+  border: solid yellow;
 }
 
-.squ {
-  transform: rotate(45deg);
+.info {
+  background-color: aqua;
 }
 
-p {
-  transform: rotate(0.5turn);
+.warning {
+  background-color: brown;
 }/*# sourceMappingURL=style.css.map */
