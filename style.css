@@ -1,0 +1,22 @@
+html {
+  background-color: #023047;
+}
+html div {
+  border: thick double #ffb703;
+}
+html div img {
+  width: 80%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html div h3 {
+  color: #fb8500;
+  text-align: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

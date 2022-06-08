@@ -1,0 +1,29 @@
+//import
+@import "./variables.scss";
+
+html{
+   background-color: $fondHtml;
+
+    div{
+    border: $bordure;
+
+    img{
+        width: 80%;
+        height: 20%;
+        display: block;
+         margin-left: auto;
+         margin-right: auto;
+    }
+
+        h3{
+        color: $titre;
+        text-align: center;
+        }
+    }
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    
+}
